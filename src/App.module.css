@@ -7,9 +7,12 @@
 }
 
 .colorInputs {
-  padding: 40px;
+  margin-top: auto;
+  padding: 48px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 2px;
+  width: 100%;
+  max-width: 700px;
 }
 
 .header {
@@ -33,5 +36,5 @@
 }
 
 .inner > *:first-child {
-  margin-right: 16px;
+  margin-right: 24px;
 }
