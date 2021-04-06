@@ -1,6 +1,6 @@
 import { HexColorPicker } from 'react-colorful';
 import { useState, useRef, useCallback } from 'react';
-import useClickOutside from './useClickOutside';
+import useClickOutside from '../../helpers/useClickOutside';
 import styles from './ColorInput.module.css';
 
 export const ColorInput = ({ id, color, changeInputHandler }) => {
@@ -31,7 +31,7 @@ export const ColorInput = ({ id, color, changeInputHandler }) => {
       ></button>
       {isColorPickerShowing && (
         <div className={styles.popover} ref={popover}>
-          <HexColorPicker width={400} color={color} onChange={handleChange} />
+          <HexColorPicker color={color} onChange={handleChange} />
         </div>
       )}
       <input

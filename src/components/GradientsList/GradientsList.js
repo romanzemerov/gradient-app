@@ -1,4 +1,4 @@
-import Thumbnail from './Thumbnail';
+import Thumbnail from '../Thumbnail/Thumbnail';
 import styles from './GradientsList.module.css';
 
 const GradientsList = ({ list, clickThumbnailsHandler }) => {
