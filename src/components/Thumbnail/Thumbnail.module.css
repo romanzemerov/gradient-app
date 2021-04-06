@@ -6,3 +6,10 @@
   border: none;
   appearance: none;
 }
+
+@media screen and (max-width: 991px) {
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+}

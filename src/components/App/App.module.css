@@ -38,3 +38,26 @@
 .inner > *:first-child {
   margin-right: 24px;
 }
+
+@media screen and (max-width: 991px) {
+  .colorInputs {
+    padding: 32px;
+    max-width: none;
+  }
+
+  .inner {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .inner > *:first-child {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    font-size: 32px;
+  }
+}

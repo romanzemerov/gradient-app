@@ -26,6 +26,7 @@
 
 .popover {
   position: absolute;
+  z-index: 100;
   top: 48px;
   left: 0;
   width: 100%;
@@ -33,4 +34,7 @@
 
 :global(body .react-colorful) {
   width: auto;
+}
+
+@media screen and (max-width: 991px) {
 }

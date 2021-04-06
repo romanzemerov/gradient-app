@@ -24,3 +24,13 @@
 .listItem {
   padding-right: 40px;
 }
+
+@media screen and (max-width: 991px) {
+  .wrapper {
+    padding: 24px;
+  }
+
+  .listItem {
+    padding-right: 24px;
+  }
+}
